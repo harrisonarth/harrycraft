@@ -20,12 +20,20 @@ REIEvents.hide('item', event => {
         'vanillaaiots:enderite_aiot',
         'vanillaaiots:obsidian_infused_enderite_aiot',
         'moonlight:placeable_item',
+        'crafting_on_a_stick:chipped_anvil',
+        'crafting_on_a_stick:damaged_anvil',
         'ftbquests:lootcrate',
         'ftbquests:missing_item',
         'ftbquests:custom_icon',
         'ftbquests:barrier',
         'ftbquests:stage_barrier',
         'ftbquests:detector',
+        'ironfurnaces:allthemodium_furnace',
+        'ironfurnaces:vibranium_furnace',
+        'ironfurnaces:unobtainium_furnace',
+        'ironfurnaces:upgrade_allthemodium',
+        'ironfurnaces:upgrade_vibranium',
+        'ironfurnaces:upgrade_unobtainium',
         'xpbook:xp_book',
     ];
 
@@ -75,6 +83,16 @@ REIEvents.groupEntries(event => {
             id: 'kubejs:rei_groups/glazed_hopper_botany_pot',
             name: 'Glazed Hopper Botany Pots',
             pattern: /^botanypots:.*_glazed_terracotta_hopper_botany_pot/,
+        },
+        {
+            id: 'kubejs:rei_groups/concrete_botany_pot',
+            name: 'Concrete Botany Pots',
+            pattern: /^botanypots:.*_concrete_botany_pot/,
+        },
+        {
+            id: 'kubejs:rei_groups/concrete_hopper_botany_pot',
+            name: 'Concrete Hopper Botany Pots',
+            pattern: /^botanypots:.*_concrete_hopper_botany_pot/,
         },
     ];
 
