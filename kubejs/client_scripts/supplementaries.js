@@ -35,6 +35,11 @@ REIEvents.groupEntries(event => {
             name: 'Candle Holder Colors',
             pattern: /^supplementaries:candle_holder_.*/,
         },
+        {
+            id: 'kubejs:rei_groups/awning',
+            name: 'Awning Colors',
+            pattern: /^supplementaries:awning_.*/,
+        },
     ];
 
     groups.forEach(group => {
@@ -43,6 +48,7 @@ REIEvents.groupEntries(event => {
 
     const useNbt = [
         { id: 'supplementaries:bamboo_spikes_tipped', name: 'Tipped Bamboo Spikes' },
+        { id: 'supplementaries:bunting', name: 'Bunting Colors' },
     ]
     
     useNbt.forEach(itemInfo => {

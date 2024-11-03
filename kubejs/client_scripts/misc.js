@@ -56,6 +56,26 @@ REIEvents.groupEntries(event => {
             name: 'Hammock',
             pattern: /^comforts:hammock_.*/,
         },
+        {
+            id: 'kubejs:rei_groups/botany_pot',
+            name: 'Botany Pot Colors',
+            pattern: /^botanypots:.*_terracotta_botany_pot/,
+        },
+        {
+            id: 'kubejs:rei_groups/hopper_botany_pot',
+            name: 'Hopper Botany Pot Colors',
+            pattern: /^botanypots:.*_terracotta_hopper_botany_pot/,
+        },
+        {
+            id: 'kubejs:rei_groups/glazed_botany_pot',
+            name: 'Glazed Botany Pots',
+            pattern: /^botanypots:.*_glazed_terracotta_botany_pot/,
+        },
+        {
+            id: 'kubejs:rei_groups/glazed_hopper_botany_pot',
+            name: 'Glazed Hopper Botany Pots',
+            pattern: /^botanypots:.*_glazed_terracotta_hopper_botany_pot/,
+        },
     ];
 
     groups.forEach(group => {
