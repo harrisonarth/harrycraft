@@ -14,10 +14,10 @@ REIEvents.hide('item', event => {
         'quark:matrix_enchanter',
         'quark:magnet',
         'quark:magnetized_block',
-        'quark:pipe',
-        'quark:encased_pipe',
         'quark:rope',
         'quark:tiny_potato',
+        'quark:backpack',
+        'quark:crate',
     ];
 
     const patternsToHide = [
@@ -73,6 +73,11 @@ REIEvents.groupEntries(event => {
             id: 'kubejs:rei_groups/stools',
             name: 'Stools',
             pattern: /^quark:.*stool$/,
+        },
+        {
+            id: 'kubejs:rei_groups/crystal_lamp',
+            name: 'Crystal Lamps',
+            pattern: /^quark:.*_crystal_lamp$/,
         },
     ];
 
