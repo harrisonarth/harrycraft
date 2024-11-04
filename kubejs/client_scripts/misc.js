@@ -94,6 +94,16 @@ REIEvents.groupEntries(event => {
             name: 'Concrete Hopper Botany Pots',
             pattern: /^botanypots:.*_concrete_hopper_botany_pot/,
         },
+        {
+            id: 'kubejs:rei_groups/canvas_sign',
+            name: 'Canvas Sign Colors',
+            pattern: /^farmersdelight:(?!.*hanging).*_canvas_sign$/,
+        },
+        {
+            id: 'kubejs:rei_groups/hanging_canvas_sign',
+            name: 'Hanging Canvas Sign Colors',
+            pattern: /^farmersdelight:.*_hanging_canvas_sign$/,
+        },
     ];
 
     groups.forEach(group => {
