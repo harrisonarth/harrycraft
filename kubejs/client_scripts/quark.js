@@ -4,6 +4,8 @@ REIEvents.hide('item', event => {
     const itemsToHide = [
         'quark:ancient_tome',
         'quark:blackstone_furnace',
+        'quark:pipe',
+        'quark:encased_pipe',
         'quark:chute',
         'quark:crafter',
         'quark:dragon_scale',
