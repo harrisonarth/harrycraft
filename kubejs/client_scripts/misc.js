@@ -39,6 +39,7 @@ REIEvents.hide('item', event => {
 
     const patternsToHide = [
         /^lootr:.*/,
+        /^aiotbotania:alfsteel.*/
     ];
     
     itemsToHide.forEach(item => event.hide(item));
@@ -103,6 +104,16 @@ REIEvents.groupEntries(event => {
             id: 'kubejs:rei_groups/hanging_canvas_sign',
             name: 'Hanging Canvas Sign Colors',
             pattern: /^farmersdelight:.*_hanging_canvas_sign$/,
+        },
+        {
+            id: 'kubejs:rei_groups/chalk',
+            name: 'Chalk Colors',
+            pattern: /^chalk:.*_chalk$/,
+        },
+        {
+            id: 'kubejs:rei_groups/rockwool',
+            name: 'Rockwool Colors',
+            pattern: /^thermal:.*_rockwool$/,
         },
     ];
 
