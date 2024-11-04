@@ -20,6 +20,7 @@ REIEvents.hide('item', event => {
         'quark:tiny_potato',
         'quark:backpack',
         'quark:crate',
+        'quark:ender_watcher',
     ];
 
     const patternsToHide = [

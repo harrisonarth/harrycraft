@@ -55,7 +55,7 @@
 	Chute = false
 	Crafter = false
 	"Dispensers Place Blocks" = true
-	"Ender Watcher" = true
+	"Ender Watcher" = false
 	"Feeding Trough" = true
 	Gravisand = true
 	"Iron Rod" = true
