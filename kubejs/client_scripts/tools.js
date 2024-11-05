@@ -3,15 +3,16 @@ REIEvents.hide('item', event => {
     
     // List of materials to apply to each tool type
     const materials = [
-        'bone', 'coal', 'emerald', 'ender', 'fiery', 'glowstone', 'lapis', 
-        'nether', 'obsidian', 'paper', 'prismarine', 'quartz', 'redstone', 
-        'slime', 'enderite', 'obsidian_infused_enderite'
+        'bone', 'coal', 'ender', 'fiery', 'glowstone', 'lapis', 
+        'nether', 'paper', 'prismarine', 'quartz', 'redstone', 
+        'slime',
     ];
     
     // List of tool types by mod
     const toolsByMod = {
         'vanillaaiots': ['aiot'],
-        'simplytools': ['hammer', 'excavator']
+        'simplytools': ['hammer', 'excavator', 'hammer_head', 'excavator_head',],
+        'morevanillatools': ['sword', 'shovel', 'axe', 'pickaxe', 'hoe',],
     };
     
     // Generate and hide items dynamically
