@@ -2,22 +2,6 @@ REIEvents.hide('item', event => {
     console.log('Hello! The Misc item hide event has fired!');
     
     const itemsToHide = [
-        'vanillaaiots:bone_aiot',
-        'vanillaaiots:coal_aiot',
-        'vanillaaiots:emerald_aiot',
-        'vanillaaiots:ender_aiot',
-        'vanillaaiots:fiery_aiot',
-        'vanillaaiots:glowstone_aiot',
-        'vanillaaiots:lapis_aiot',
-        'vanillaaiots:nether_aiot',
-        'vanillaaiots:obsidian_aiot',
-        'vanillaaiots:paper_aiot',
-        'vanillaaiots:prismarine_aiot',
-        'vanillaaiots:quartz_aiot',
-        'vanillaaiots:redstone_aiot',
-        'vanillaaiots:slime_aiot',
-        'vanillaaiots:enderite_aiot',
-        'vanillaaiots:obsidian_infused_enderite_aiot',
         'moonlight:placeable_item',
         'crafting_on_a_stick:chipped_anvil',
         'crafting_on_a_stick:damaged_anvil',
