@@ -31,6 +31,7 @@ REIEvents.hide('item', event => {
         /^quark:egg_.*/,
         /^quark:.*shard/,
         /^quark:permafrost.*/,
+        /^quark:.*_vertical_slab$/,
     ];
     
     itemsToHide.forEach(item => event.hide(item));
@@ -66,11 +67,6 @@ REIEvents.groupEntries(event => {
             id: 'kubejs:rei_groups/shingles_stairs',
             name: 'Shingle Stairs Colors',
             pattern: /^quark:.*_shingles_stairs$/,
-        },
-        {
-            id: 'kubejs:rei_groups/shingles__vertical_slab',
-            name: 'Shingle Vertical Slab Colors',
-            pattern: /^quark:.*_shingles_vertical_slab$/,
         },
         {
             id: 'kubejs:rei_groups/stools',
