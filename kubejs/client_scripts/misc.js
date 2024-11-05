@@ -4,7 +4,6 @@ REIEvents.hide('item', event => {
     const itemsToHide = [
         'vanillaaiots:bone_aiot',
         'vanillaaiots:coal_aiot',
-        'vanillaaiots:copper_aiot',
         'vanillaaiots:emerald_aiot',
         'vanillaaiots:ender_aiot',
         'vanillaaiots:fiery_aiot',
@@ -120,4 +119,14 @@ REIEvents.groupEntries(event => {
     groups.forEach(group => {
         event.groupItems(group.id, group.name, [group.pattern]);
     });
+
+    const useNbt = [
+        { id: 'sophisticatedbackpacks:backpack', name: 'Backpack' },
+    ]
+    
+    useNbt.forEach(itemInfo => {
+        const item = Item.of(itemInfo.id)
+        const { namespace, path } = Utils.id(item.id)
+        event.groupSameItem(`kubejs:rei_groups/${namespace}/${path}`, itemInfo.name, item)
+    })
 });
