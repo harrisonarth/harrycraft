@@ -1,7 +1,7 @@
 REIEvents.hide('item', event => {
-    console.log('Hello! The Misc item hide event has fired!');
+    console.log('Hello! The tools hide event has fired!');
 
-    // List of materials to apply to each tool type
+    // List of materials
     const materials = [
         'bone', 'coal', 'emerald', 'ender', 'fiery', 'glowstone', 'lapis',
         'nether', 'obsidian', 'paper', 'prismarine', 'quartz', 'redstone',
