@@ -7,15 +7,273 @@
 	id: "3E89C0707880A6D7"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "2A72AB8606564591"
-		tasks: [{
-			id: "048D4F5A35F06EDB"
-			title: "Welcome to HarryCraft!"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "09E91556A9ABA895"
+			rewards: [{
+				id: "707A6F045F86D6E8"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			subtitle: "Existence makes you angry..."
+			tasks: [{
+				id: "65D93844CD8E65E1"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "Punch Trees"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09E91556A9ABA895"]
+			id: "77EB42817AE65545"
+			rewards: [{
+				id: "32E18FBC857E8264"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			subtitle: "...then mine?"
+			tasks: [{
+				id: "171FE1829EC0B56E"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			title: "Craft..."
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77EB42817AE65545"]
+			id: "6BD2CBAF3BFDB3E0"
+			rewards: [
+				{
+					count: 3
+					id: "31DA56B39569F74B"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "78ED52D93CD4F62F"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			subtitle: "When does the mining start?"
+			tasks: [{
+				id: "08412CCC093D0D48"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "...More Crafting"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BD2CBAF3BFDB3E0"]
+			id: "7A09BC09AA985081"
+			rewards: [{
+				count: 4
+				id: "126523481BD3C2D7"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "OOG USE TOOLS"
+			tasks: [{
+				id: "0FEDCB31056F5E1F"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "OOG NEED ROCKS"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A09BC09AA985081"]
+			id: "09998DBAB6EE9EE4"
+			rewards: [{
+				id: "0BFF5AF7D6B6A1D7"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			subtitle: "This marks a new age for Oog"
+			tasks: [{
+				id: "29B65D812C9EF2F7"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "Cobblestone Age"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09998DBAB6EE9EE4"]
+			id: "5C5632D98FF08309"
+			rewards: [{
+				id: "121A5D59D7E4D820"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			subtitle: "Oog advancing civilization rather fast..."
+			tasks: [
+				{
+					id: "29D181457258DC33"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "0FC3726AC8274915"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			title: "Oog Discovers Fire"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5D538E31E4C75644"
+			subtitle: "OOG BORED!"
+			tasks: [{
+				id: "2A13A10EC7351312"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Oog Skips Straight to Metallurgy"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "57F64AD79A33E422"
+			tasks: [{
+				id: "2B617E63B3DE58A8"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "756F9EF53DD973D4"
+			tasks: [{
+				id: "311462EA55814D6A"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "59C23CCAE56774BB"
+			tasks: [{
+				id: "702C73F51699C3E4"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "49BA5E4A76CF9937"
+			tasks: [
+				{
+					id: "515AEA40CAC16071"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "0DDA82F2F5ADCF6C"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Visit Hell"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Grow some vegetables, and gather some livestock! "
+				""
+				"Gather wheat to cook bread and breed cows. Breeding cows gives you a renewable source of leather and steak. Baked Potatoes make great easy food. Flax is an easy source of string, combine string into wool."
+				""
+				"Check out the Farmer's Delight quest tab for other food related goals."
+			]
+			id: "0B383647C6764AB5"
+			rewards: [{
+				count: 6
+				id: "1BB033C9B166FE47"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			subtitle: "Start farming!"
+			tasks: [{
+				id: "6CD45B84F141E0D5"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:seeds)"
+					}
+				}
+				title: "Any #forge:seeds"
+				type: "item"
+			}]
+			title: "Punch Grass"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0B383647C6764AB5"
+				"6BD2CBAF3BFDB3E0"
+			]
+			id: "252F4A5FF04E2CA1"
+			rewards: [{
+				id: "19B1310ABC5FA111"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			subtitle: "...never waste diamond on a hoe."
+			tasks: [{
+				id: "7B5BB507E6EFF8E5"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)"
+					}
+				}
+				title: "Any #minecraft:hoes"
+				type: "item"
+			}]
+			title: "You know what they say..."
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "79D9A974BBAD71B7"
+			tasks: [{
+				id: "60346DE9AF518BA7"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+	]
 	title: "Getting Started"
 }
