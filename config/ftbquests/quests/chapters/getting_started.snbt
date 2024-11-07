@@ -18,7 +18,14 @@
 			subtitle: "Existence makes you angry..."
 			tasks: [{
 				id: "65D93844CD8E65E1"
-				item: "minecraft:oak_log"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
+					}
+				}
+				title: "Any #minecraft:logs"
 				type: "item"
 			}]
 			title: "Punch Trees"
@@ -36,7 +43,14 @@
 			subtitle: "...then mine?"
 			tasks: [{
 				id: "171FE1829EC0B56E"
-				item: "minecraft:oak_planks"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)"
+					}
+				}
+				title: "Any #minecraft:planks"
 				type: "item"
 			}]
 			title: "Craft..."
@@ -139,6 +153,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5C5632D98FF08309"]
 			id: "5D538E31E4C75644"
 			subtitle: "OOG BORED!"
 			tasks: [{
@@ -147,40 +162,22 @@
 				type: "item"
 			}]
 			title: "Oog Skips Straight to Metallurgy"
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			id: "57F64AD79A33E422"
-			tasks: [{
-				id: "2B617E63B3DE58A8"
-				item: "minecraft:copper_ingot"
-				type: "item"
-			}]
 			x: 1.0d
 			y: 0.0d
 		}
 		{
-			id: "756F9EF53DD973D4"
-			tasks: [{
-				id: "311462EA55814D6A"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
+			dependencies: ["5D538E31E4C75644"]
 			id: "59C23CCAE56774BB"
 			tasks: [{
 				id: "702C73F51699C3E4"
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["59C23CCAE56774BB"]
 			id: "49BA5E4A76CF9937"
 			tasks: [
 				{
@@ -201,7 +198,7 @@
 				}
 			]
 			title: "Visit Hell"
-			x: 5.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -265,6 +262,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["5D538E31E4C75644"]
 			id: "79D9A974BBAD71B7"
 			tasks: [{
 				id: "60346DE9AF518BA7"
