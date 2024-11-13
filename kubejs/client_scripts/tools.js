@@ -3,8 +3,8 @@ REIEvents.hide('item', event => {
 
     // List of materials
     const materials = [
-        'bone', 'coal', 'emerald', 'ender', 'fiery', 'glowstone', 'lapis',
-        'nether', 'obsidian', 'paper', 'prismarine', 'quartz', 'redstone',
+        'bone', 'coal', 'copper', 'emerald', 'ender', 'enderite', 'fiery', 'glowstone', 'lapis',
+        'nether', 'obsidian', 'obsidian_infused_enderite', 'paper', 'prismarine', 'quartz', 'redstone',
         'slime',
     ];
 

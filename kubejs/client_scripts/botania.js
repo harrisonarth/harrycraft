@@ -76,6 +76,8 @@ REIEvents.groupEntries(event => {
         { id: 'botania:brew_flask', name: 'Potion Flasks' },
         { id: 'botania:blood_pendant', name: 'Blood Pendant Variants' },
         { id: 'botania:incense_stick', name: 'Incense Stick Variants' },
+        { id: 'botania:laputa_shard', name: 'Shard of Laputa' },
+        
     ]
     
     useNbt.forEach(itemInfo => {

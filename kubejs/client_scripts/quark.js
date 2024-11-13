@@ -2,7 +2,6 @@ REIEvents.hide('item', event => {
     console.log('Hello! The Quark item hide event has fired!');
     
     const itemsToHide = [
-        'quark:ancient_tome',
         'quark:blackstone_furnace',
         'quark:pipe',
         'quark:encased_pipe',
@@ -85,6 +84,7 @@ REIEvents.groupEntries(event => {
     });
 
     const useNbt = [
+        { id: 'quark:ancient_tome', name: 'Ancient Tome' },
         { id: 'quark:pathfinders_quill', name: 'Pathfinders Quill' },
         { id: 'quark:seed_pouch', name: 'Seed Pouch' },
     ]

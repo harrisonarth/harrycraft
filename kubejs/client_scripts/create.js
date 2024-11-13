@@ -4,6 +4,20 @@ REIEvents.hide('item', event => {
     const itemsToHide = [
         'create:copper_backtank_placeable',
         'create:netherite_backtank_placeable',
+        'create:crushed_raw_osmium',
+        'create:crushed_raw_platinum',
+        'create:crushed_raw_silver',
+        'create:crushed_raw_tin',
+        'create:crushed_raw_lead',
+        'create:crushed_raw_quicksilver',
+        'create:crushed_raw_aluminum',
+        'create:crushed_raw_uranium',
+        'create:crushed_raw_nickel',
+        'create:chromatic_compound',
+        'create:refined_radiance',
+        'create:shadow_steel',
+        'create_sa:incomplete_book',
+        'create_sa:incomplete_web',
     ];
     
     itemsToHide.forEach(item => event.hide(item));
@@ -33,4 +47,14 @@ REIEvents.groupEntries(event => {
     groups.forEach(group => {
         event.groupItems(group.id, group.name, [group.pattern]);
     });
+
+    const useNbt = [
+        { id: 'createcobblestone:mechanical_generator', name: 'Mechanical Generator Variants' }, 
+    ]
+    
+    useNbt.forEach(itemInfo => {
+        const item = Item.of(itemInfo.id)
+        const { namespace, path } = Utils.id(item.id)
+        event.groupSameItem(`kubejs:rei_groups/${namespace}/${path}`, itemInfo.name, item)
+    })
 });
