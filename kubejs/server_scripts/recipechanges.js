@@ -41,4 +41,6 @@ ServerEvents.recipes(event => {
       });
     });
   });
+  event.remove({ id: /^functionalstorage:oak_drawer_alternate_x.*/ })
+  event.remove({ id: 'simplytools:paper_compress' })
 });

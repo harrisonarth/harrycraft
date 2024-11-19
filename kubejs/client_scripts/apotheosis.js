@@ -3,6 +3,7 @@ REIEvents.hide('item', event => {
     
     const itemsToHide = [
         'apotheosis:ancient_material',
+        'apotheosis:boss_summoner',
     ];
     
     itemsToHide.forEach(item => event.hide(item));

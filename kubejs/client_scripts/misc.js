@@ -17,6 +17,7 @@ REIEvents.hide('item', event => {
         'ironfurnaces:upgrade_allthemodium',
         'ironfurnaces:upgrade_vibranium',
         'ironfurnaces:upgrade_unobtainium',
+        'simplytools:paper_bundle',
         'xpbook:xp_book',
     ];
 

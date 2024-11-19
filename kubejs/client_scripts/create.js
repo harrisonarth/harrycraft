@@ -16,8 +16,9 @@ REIEvents.hide('item', event => {
         'create:chromatic_compound',
         'create:refined_radiance',
         'create:shadow_steel',
-        'create_sa:incomplete_book',
-        'create_sa:incomplete_web',
+        'create_dd:giant_gear',
+        'create_jetpack:jetpack_placeable',
+        'create_jetpack:netherite_jetpack_placeable',
     ];
     
     itemsToHide.forEach(item => event.hide(item));
