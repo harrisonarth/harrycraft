@@ -5,6 +5,7 @@ REIEvents.hide('item', event => {
         'moonlight:placeable_item',
         'crafting_on_a_stick:chipped_anvil',
         'crafting_on_a_stick:damaged_anvil',
+        'dramaticdoors:tall_silver_door',
         'ftbquests:lootcrate',
         'ftbquests:missing_item',
         'ftbquests:custom_icon',
@@ -23,7 +24,7 @@ REIEvents.hide('item', event => {
 
     const patternsToHide = [
         /^lootr:.*/,
-        /^aiotbotania:alfsteel.*/
+        /^dramaticdoors:short_.*/,
     ];
     
     itemsToHide.forEach(item => event.hide(item));
@@ -50,36 +51,6 @@ REIEvents.groupEntries(event => {
             pattern: /^comforts:hammock_.*/,
         },
         {
-            id: 'kubejs:rei_groups/botany_pot',
-            name: 'Botany Pot Colors',
-            pattern: /^botanypots:.*_terracotta_botany_pot/,
-        },
-        {
-            id: 'kubejs:rei_groups/hopper_botany_pot',
-            name: 'Hopper Botany Pot Colors',
-            pattern: /^botanypots:.*_terracotta_hopper_botany_pot/,
-        },
-        {
-            id: 'kubejs:rei_groups/glazed_botany_pot',
-            name: 'Glazed Botany Pots',
-            pattern: /^botanypots:.*_glazed_terracotta_botany_pot/,
-        },
-        {
-            id: 'kubejs:rei_groups/glazed_hopper_botany_pot',
-            name: 'Glazed Hopper Botany Pots',
-            pattern: /^botanypots:.*_glazed_terracotta_hopper_botany_pot/,
-        },
-        {
-            id: 'kubejs:rei_groups/concrete_botany_pot',
-            name: 'Concrete Botany Pots',
-            pattern: /^botanypots:.*_concrete_botany_pot/,
-        },
-        {
-            id: 'kubejs:rei_groups/concrete_hopper_botany_pot',
-            name: 'Concrete Hopper Botany Pots',
-            pattern: /^botanypots:.*_concrete_hopper_botany_pot/,
-        },
-        {
             id: 'kubejs:rei_groups/canvas_sign',
             name: 'Canvas Sign Colors',
             pattern: /^farmersdelight:(?!.*hanging).*_canvas_sign$/,
@@ -88,16 +59,6 @@ REIEvents.groupEntries(event => {
             id: 'kubejs:rei_groups/hanging_canvas_sign',
             name: 'Hanging Canvas Sign Colors',
             pattern: /^farmersdelight:.*_hanging_canvas_sign$/,
-        },
-        {
-            id: 'kubejs:rei_groups/chalk',
-            name: 'Chalk Colors',
-            pattern: /^chalk:.*_chalk$/,
-        },
-        {
-            id: 'kubejs:rei_groups/rockwool',
-            name: 'Rockwool Colors',
-            pattern: /^thermal:.*_rockwool$/,
         },
     ];
 

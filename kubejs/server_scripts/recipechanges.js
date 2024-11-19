@@ -45,4 +45,6 @@ ServerEvents.recipes(event => {
   event.remove({ id: /^functionalstorage:oak_drawer_alternate_x.*/ })
   // Removes compressed paper recipe
   event.remove({ id: 'simplytools:paper_compress' })
+  // Removes short doors from Dramatic Doors
+  event.remove({ id: /^dramaticdoors:short_.*/ })
 });
