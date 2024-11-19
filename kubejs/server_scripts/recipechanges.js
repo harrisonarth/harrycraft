@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
     'simplytools': ['hammer', 'excavator', 'hammer_head', 'excavator_head',],
     'morevanillatools': ['sword', 'shovel', 'axe', 'pickaxe', 'hoe',],
   };
-  // Generate and hide items dynamically
+  // Generate and hide tools dynamically
   Object.entries(toolsByMod).forEach(([mod, tools]) => {
     materials.forEach(material => {
       tools.forEach(tool => {
@@ -41,6 +41,8 @@ ServerEvents.recipes(event => {
       });
     });
   });
+  // Removes weird Functional Storage recipes
   event.remove({ id: /^functionalstorage:oak_drawer_alternate_x.*/ })
+  // Removes compressed paper recipe
   event.remove({ id: 'simplytools:paper_compress' })
 });
