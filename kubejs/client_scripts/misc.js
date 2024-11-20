@@ -53,6 +53,11 @@ REIEvents.groupEntries(event => {
             name: 'Hanging Canvas Sign Colors',
             pattern: /^farmersdelight:.*_hanging_canvas_sign$/,
         },
+        {
+            id: 'kubejs:rei_groups/rockwool',
+            name: 'Rockwool Colors',
+            pattern: /^thermal:.*_rockwool$/,
+        },
     ];
 
     groups.forEach(group => {
