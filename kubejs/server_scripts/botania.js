@@ -17,4 +17,16 @@ ServerEvents.recipes(event => {
               "item": "minecraft:ghast_tear"
             }
     })
+    event.custom({
+        "type": "botania:orechid",
+        "input": {
+          "type": "block",
+          "block": "minecraft:stone"
+        },
+        "output": {
+          "type": "block",
+          "block": "create:zinc_ore"
+        },
+        "weight": 19371
+  })
 })
