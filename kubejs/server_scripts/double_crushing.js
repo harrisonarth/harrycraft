@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/raw_iron' })
     event.remove({ id: 'create:crushing/raw_copper' })
+    event.remove({ id: 'create:crushing/raw_gold' })
     event.remove({ id: 'create:crushing/raw_zinc' })
 
     event.custom({
@@ -45,7 +46,7 @@ ServerEvents.recipes(event => {
         type: "create:crushing",
         ingredients: [
             {
-                item: "create:raw_gold",
+                item: "minecraft:raw_gold",
             },
         ],
         processingTime: 400,

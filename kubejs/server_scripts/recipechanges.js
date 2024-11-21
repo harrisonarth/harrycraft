@@ -47,4 +47,22 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'simplytools:paper_compress' })
   // Removes short doors from Dramatic Doors
   event.remove({ id: /^dramaticdoors:short_.*/ })
+  // Removes Supplementaries slime recipes
+  event.remove({ id: 'supplementaries:slime_ball' })
+
+  event.remove({ id: 'mekanism:metallurgic_infuser' })
+  event.shaped(
+    Item.of('mekanism:metallurgic_infuser', 1), // arg 1: output
+    [
+      'IFI',
+      'RPR', // arg 2: the shape (array of strings)
+      'IFI'
+    ],
+    {
+      I: 'minecraft:iron_ingot',
+      F: 'minecraft:blast_furnace',
+      R: 'minecraft:redstone_block',
+      P: 'create_dd:integrated_mechanism'
+    }
+  )
 });
