@@ -50,19 +50,18 @@ ServerEvents.recipes(event => {
   // Removes Supplementaries slime recipes
   event.remove({ id: 'supplementaries:slime_ball' })
 
-  event.remove({ id: 'mekanism:metallurgic_infuser' })
+  event.remove({ id: 'prettypipes:pipe' })
   event.shaped(
-    Item.of('mekanism:metallurgic_infuser', 1), // arg 1: output
-    [
-      'IFI',
-      'RPR', // arg 2: the shape (array of strings)
-      'IFI'
-    ],
-    {
-      I: 'minecraft:iron_ingot',
-      F: 'minecraft:blast_furnace',
-      R: 'minecraft:redstone_block',
-      P: 'create_dd:integrated_mechanism'
-    }
-  )
+      Item.of('prettypipes:pipe', 4),
+      [
+          ' R ',
+          'IGI',
+          ' M '
+      ],
+      {
+          R: 'minecraft:redstone',
+          G: '#forge:glass/silica',
+          M: 'create_dd:kinetic_mechanism',
+          I: 'minecraft:iron_bars'
+      })
 });
