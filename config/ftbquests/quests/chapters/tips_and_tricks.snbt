@@ -9,97 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["The Akashic Tome is meant to be used in large modpacks where every mod adds its own documentation book. Instead of cluttering your inventory, you can hold them all in one slot and swap as needed."]
-			id: "0B344842CF06540C"
-			subtitle: "A book of books?"
-			tasks: [{
-				id: "0B2A69123194285C"
-				item: "akashictome:tome"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -1.0d
-		}
-		{
-			description: [
-				"Chalk allows you to draw marks for easier navigation in caves or structures. Chalk comes in all 16 Minecraft colors."
-				""
-				"* Click on the side of a block to draw a mark."
-				"* Direction of the mark depends on the click location relative to the center of the face."
-				"* Dot mark is drawn by clicking the center."
-				"* Add Glowstone Dust or Glow Ink Sacs to the marks to make them glow."
-				""
-				"You can also draw a couple of different symbols. Right click while sneaking to open a menu where you can choose the desired symbol to draw."
-			]
-			id: "2D1D3FB5DF0669F3"
-			subtitle: "Make your mark!"
-			tasks: [
-				{
-					id: "58FB223603AFA853"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(chalk:chalks)"
-						}
-					}
-					title: "Any #chalk:chalks"
-					type: "item"
-				}
-				{
-					id: "26202BB6887BD572"
-					item: {
-						Count: 1
-						id: "chalk:chalk_box"
-						tag: {
-							Items: [
-								{
-									Count: 0b
-									id: "minecraft:air"
-								}
-								{
-									Count: 0b
-									id: "minecraft:air"
-								}
-								{
-									Count: 0b
-									id: "minecraft:air"
-								}
-								{
-									Count: 0b
-									id: "minecraft:air"
-								}
-								{
-									Count: 0b
-									id: "minecraft:air"
-								}
-								{
-									Count: 0b
-									id: "minecraft:air"
-								}
-								{
-									Count: 0b
-									id: "minecraft:air"
-								}
-								{
-									Count: 0b
-									id: "minecraft:air"
-								}
-								{
-									Count: 0b
-									id: "minecraft:air"
-								}
-							]
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Chalk"
-			x: 0.0d
-			y: 1.0d
-		}
-		{
 			description: ["Comforts is a mod that adds sleeping bags and hammocks to Minecraft. These items can be used just like beds except they do not set a player's spawn point on use, safely preserving a player's spawn point at their home base. Just like beds, they also come in 16 different colors! "]
 			id: "1C81A9ECA04433BC"
 			subtitle: "Are you afraid of the dark?"
@@ -116,7 +25,7 @@
 				type: "item"
 			}]
 			title: "Sleeping Bag"
-			x: 2.0d
+			x: -1.0d
 			y: -1.0d
 		}
 		{
@@ -141,48 +50,7 @@
 			}]
 			title: "Crafting on a Stick"
 			x: -2.0d
-			y: -2.0d
-		}
-		{
-			description: ["Hang Glider adds a hang glider (surprise!) to soar through the skies! Just jump off a cliff and let your glider do the rest. Features very fluid and natural flight controls and nice models. And when you wanna go even quicker reinforce your glider!"]
-			id: "0376516C240E3A51"
-			subtitle: "Pair with Slime Sling for fun early game travel!"
-			tasks: [{
-				id: "1D34004BC02D4034"
-				item: {
-					Count: 1
-					id: "hangglider:hang_glider"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 1.0d
-			y: -2.0d
-		}
-		{
-			description: [
-				"This mod adds a retextured version of the slime sling and slime boots from Tinkers' Construct and a few other useful/fun slime items."
-				""
-				"The sling flings you into the air after charging it with right click. Be careful of fall damage!"
-			]
-			id: "3F79DF09443D493D"
-			subtitle: "If only my ankles weren't broken."
-			tasks: [{
-				id: "4C9DBE4BD4D5AC33"
-				item: {
-					Count: 1
-					id: "usefulslime:slime_sling"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Useful Slime"
-			x: 2.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			description: ["This mod adds a single item - the XP Tome. With the XP Tome you can store and retrieve XP. It can store up to 1395 XP by default, which equals to having 30 levels on the XP bar."]
@@ -197,8 +65,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			description: ["Always wanted a tool for all blocks? Here you are, All In One Tools! It's an axe, pickaxe, hoe, shovel, and sword combined into one single tool!"]
@@ -217,8 +85,8 @@
 				type: "item"
 			}]
 			title: "All in One Tool"
-			x: -1.0d
-			y: -2.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			description: ["This mod adds waystone blocks that the player can return to once they've been activated, either through a Warp Scroll, a rechargeable Warp Stone, or by using an existing waystone to hop from one to the other."]
@@ -278,7 +146,7 @@
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
@@ -314,7 +182,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: -1.0d
 		}
 		{
@@ -346,17 +214,6 @@
 			y: 0.0d
 		}
 		{
-			id: "436D6733850849EA"
-			subtitle: "Upgradeable!"
-			tasks: [{
-				id: "18A8E0CA723C86B5"
-				item: "toolbelt:belt"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -1.0d
-		}
-		{
 			description: ["The Quark mod adds the Trowel, when right clicked it will place a random block from your hotbar, making it useful for randomizing walls, floors, and paths."]
 			id: "20B886F8B945DCB7"
 			subtitle: "Texture!"
@@ -367,26 +224,6 @@
 			}]
 			x: 2.0d
 			y: 0.0d
-		}
-		{
-			description: ["This mod adds the Botany Pot which is a block that can grow all kinds of crops and trees. Perfect for the early game. You can slightly increase output by providing it Farmland or Rich Soil Farmland."]
-			id: "48917F540D5AA49E"
-			subtitle: "Enough tree punching."
-			tasks: [{
-				id: "6811A619F1BC0E7C"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(botanypots:all_botany_pots)"
-					}
-				}
-				title: "Any #botanypots:all_botany_pots"
-				type: "item"
-			}]
-			title: "Botany Pot"
-			x: 1.0d
-			y: 1.0d
 		}
 		{
 			description: [
@@ -442,97 +279,8 @@
 				}
 			]
 			title: "Hammertime!"
-			x: 0.0d
-			y: -2.0d
-		}
-		{
-			description: [
-				"FTB Ultimine provides effective modes for harvesting multiple blocks at once. Simply hold the designated key (default ` key) configured within the minecraft controls screen to activate the mod, gathered items will collect right below your feet so you don't need to wander around!"
-				""
-				"This might be removed..."
-				""
-				""
-				""
-				" "
-			]
-			id: "03E6FF94253AE4CD"
-			subtitle: "We hate grind!"
-			tasks: [{
-				id: "0DD6F7BAE4EA87C0"
-				title: "Vein Miner"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -3.5d
-		}
-		{
-			description: [
-				"For those of you who are brand new to modded minecraft. You may have already noticed that when you view your inventory you are greeted with a large side bar of items. This mod is called Roughly Enough Items (REI). In short, REI is an item and recipe viewing mod."
-				""
-				"This pack has taken particular care to reduce the amount of items within the REI screen as to not overwhelm new players. Furthermore, items that have a full specrum of color variations or repetive entries have been either grouped together or removed entirely. "
-				""
-				"REI is by far the most powerful mod you can have in your toolbox and will be your key to success. There is a lot to cover and I highly suggest you find a short youtube about it."
-			]
-			id: "7BE8B3EBBD59A68C"
-			subtitle: "Goated mod."
-			tasks: [{
-				id: "26CE88BE24439A66"
-				title: "Roughly Enough Items"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: -3.5d
-		}
-		{
-			description: [
-				"This mod allows you to claim chunks to protect your blocks (even from creepers)! It also has a minimap, a large map, and waypoints."
-				""
-				"This mod pairs well with FTB Teams. A mod that adds team functionality to FTB Chunks and FTB Quests. In quests, it allows multiple people to complete the same quests together, in FTB Chunks it allows for team interactions between blocks without need to whitelist them otherwise."
-			]
-			id: "4928AF5F83D49A76"
-			tasks: [{
-				id: "39C43D0865353363"
-				title: "FTB Chunks"
-				type: "checkmark"
-			}]
 			x: 1.0d
-			y: -3.5d
-		}
-		{
-			description: ["Jade is the information HUD mod in the top of your screen. It will show you important information about the blocks you are looking at."]
-			id: "2B4A31854295AA79"
-			subtitle: "What Am I Looking At?"
-			tasks: [{
-				id: "0CF4FF6102F6E7F5"
-				title: "Jade"
-				type: "checkmark"
-			}]
-			x: -1.0d
-			y: -3.5d
-		}
-		{
-			description: [
-				"There are a few slash commands that will be helpful to you not only on multiplayer servers but also inside your own single player servers as well. Play with or without them, that choice is up to you."
-				""
-				"/sethome - Sets a home location."
-				""
-				"/home - Teleports you to the home location."
-				""
-				"/spawn - Teleports you to server spawn."
-				""
-				"/rtp - Teleports you to random location in world."
-				""
-				"/back - Teleports to previous location."
-				" "
-			]
-			id: "255AF248B517DA79"
-			tasks: [{
-				id: "1CCA13B9C26F78A8"
-				title: "FTB Essentials"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: -3.5d
+			y: -1.0d
 		}
 	]
 	title: "Tips and Tricks"

@@ -1,0 +1,156 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: ""
+	icon: "botania:lexicon"
+	id: "358ABC222FCB222F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["There are 16 different mystical flowers that grow throughout the overworld. Here's a book to help you dive deeper into your floral fetishes."]
+			id: "779EB3BE1539E498"
+			rewards: [
+				{
+					id: "793526C38AFC3C9D"
+					item: "botania:lexicon"
+					type: "item"
+				}
+				{
+					id: "1152E98C4128E4C3"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			subtitle: "First hit is free kid!"
+			tasks: [{
+				id: "357CDAB1310347EE"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(botania:mystical_flowers)"
+					}
+				}
+				title: "Any #botania:mystical_flowers"
+				type: "item"
+			}]
+			title: "So you found a magic flower..."
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: "botania:apothecary_default"
+			id: "0DCA009EA294C464"
+			tasks: [{
+				id: "07FD81FED79684B6"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "167D0E1C1BC2F43F"
+			tasks: [{
+				id: "56BCFC1ECA9AD75F"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "6614673F67AB465A"
+			tasks: [{
+				id: "46F9A1D4060274E5"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "3998D181EEBBD489"
+			tasks: [{
+				id: "2F9CC22DF8FA090F"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			title: "Agglomerate Deez"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "662C90A025660A47"
+			tasks: [{
+				id: "1BDE81DBB9896C65"
+				item: "botania:natura_pylon"
+				type: "item"
+			}]
+			title: "You Must Construct Additional Pylons"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "3ADA89E1F4A4C13D"
+			tasks: [{
+				id: "69BE7250FA67B6CB"
+				item: "botania:corporea_spark"
+				type: "item"
+			}]
+			title: "Botania is a Tech Mod"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "33307F7C97A232BD"
+			tasks: [{
+				id: "6B9E9326A5D04B9C"
+				item: "botania:spark"
+				type: "item"
+			}]
+			title: "Botania is a Magic Mod"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "53171BD6EC1E2E08"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "botania:gaia_pylon"
+				id: "5DD560070A4748F5"
+				title: "Kill the Gaia Spirit"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "54CA411E6AF257CB"
+			tasks: [
+				{
+					id: "385980658A5B0EC7"
+					item: "botania:endoflame"
+					type: "item"
+				}
+				{
+					id: "3FFAA4850AA7C46C"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "1944152FA70E5E6D"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+			]
+			title: "Make Some Mana"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Botania"
+}

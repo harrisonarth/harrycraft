@@ -272,6 +272,161 @@
 			x: 1.5d
 			y: -1.0d
 		}
+		{
+			id: "1DADA0B9898ECF9F"
+			tasks: [{
+				id: "3C2613155725273D"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "72205507785484FB"
+			tasks: [{
+				id: "51FEB7A86CEFE183"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "2E1A8C903E96A29C"
+			tasks: [{
+				id: "2CEB6B06D2D79C78"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "1E2F1159608D7DD8"
+			tasks: [{
+				id: "7FF7C07470BAB1FB"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "56FB421EE5CB80F0"
+			tasks: [{
+				id: "653F981D36CA8B61"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "67101D860D5658EF"
+			tasks: [{
+				id: "3E44DF98491FE0A5"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "55DD261F127BF65A"
+			tasks: [{
+				id: "2FA945C3F8A2FE8B"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "54A7CD7FDED70FFB"
+			tasks: [{
+				id: "2B774118DBDD1DFD"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"For those of you who are brand new to modded minecraft. You may have already noticed that when you view your inventory you are greeted with a large side bar of items. This mod is called Roughly Enough Items (REI). In short, REI is an item and recipe viewing mod."
+				""
+				"This pack has taken particular care to reduce the amount of items within the REI screen as to not overwhelm new players. Furthermore, items that have a full specrum of color variations or repetive entries have been either grouped together or removed entirely. "
+				""
+				"REI is by far the most powerful mod you can have in your toolbox and will be your key to success. There is a lot to cover and I highly suggest you find a short youtube about it."
+			]
+			id: "7BE8B3EBBD59A68C"
+			subtitle: "Goated mod."
+			tasks: [{
+				id: "26CE88BE24439A66"
+				title: "Roughly Enough Items"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			description: ["Jade is the information HUD mod in the top of your screen. It will show you important information about the blocks you are looking at."]
+			id: "2B4A31854295AA79"
+			subtitle: "What Am I Looking At?"
+			tasks: [{
+				id: "0CF4FF6102F6E7F5"
+				title: "Jade"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"This mod allows you to claim chunks to protect your blocks (even from creepers)! It also has a minimap, a large map, and waypoints."
+				""
+				"This mod pairs well with FTB Teams. A mod that adds team functionality to FTB Chunks and FTB Quests. In quests, it allows multiple people to complete the same quests together, in FTB Chunks it allows for team interactions between blocks without need to whitelist them otherwise."
+			]
+			id: "4928AF5F83D49A76"
+			tasks: [{
+				id: "39C43D0865353363"
+				title: "FTB Chunks"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"There are a few slash commands that will be helpful to you not only on multiplayer servers but also inside your own single player servers as well. Play with or without them, that choice is up to you."
+				""
+				"/sethome - Sets a home location."
+				""
+				"/home - Teleports you to the home location."
+				""
+				"/spawn - Teleports you to server spawn."
+				""
+				"/rtp - Teleports you to random location in world."
+				""
+				"/back - Teleports to previous location."
+				" "
+			]
+			id: "255AF248B517DA79"
+			tasks: [{
+				id: "1CCA13B9C26F78A8"
+				title: "FTB Essentials"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
 	]
 	title: "Getting Started"
 }

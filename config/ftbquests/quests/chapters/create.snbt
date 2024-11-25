@@ -1,0 +1,92 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	icon: "create:andesite_alloy"
+	id: "16B099CCE6543FD2"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4DC50836BB420BAC"
+			tasks: [{
+				id: "76C12479D9E8424D"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1424E25B411FA1F1"
+			tasks: [
+				{
+					id: "5BEC1F68E9E357BE"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "5260E9754E228C84"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "1FA56CF64E3710FD"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "790C16445FDA4255"
+			tasks: [{
+				id: "2FF565A0B1C14E47"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "6E7B83093F2EFEED"
+			tasks: [
+				{
+					id: "700A845E9533B4DC"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					id: "17F79211CC29CBC6"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "6931C2CD0D534F53"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "1AED66659191C09B"
+					item: "create:encased_fan"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "25D3CBD80CEBE57C"
+			tasks: [{
+				id: "4987F1BB26997E5C"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "Create"
+}
